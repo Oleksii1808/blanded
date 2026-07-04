@@ -1,0 +1,76 @@
+.yacht {}
+
+.container {}
+
+.yacht-title {}
+
+.yacht-list {
+    display: flex;
+    gap: 32px;
+}
+
+.yacht-list-item {
+    width: calc((100% - 64px) / 3);
+    border-radius: 24px;
+    background-color: #fbfbfb;
+    padding: 16px 32px;
+}
+
+.yacht-item-image {
+    border-radius: 24px;
+    margin: 0 auto;
+    display: block;
+}
+
+.yacht-item-title-dscr-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.yacht-iteme-title {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        letter-spacing: -0.04em;
+        text-transform: uppercase;
+        color: #1b414b;
+}
+
+.yacht-item-type {
+    font-weight: 400;
+        font-size: 13px;
+        line-height: 1.18;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #040306;
+        opacity: 0.4;
+}
+
+.yacht-item-table {
+
+}
+
+.yacht-table-item {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.yacht-table-item-dscr {
+font-weight: 400;
+    font-size: 14px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #040306;
+    opacity: 0.4;
+}
+
+.yacht-table-value {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: #040306;
+}
