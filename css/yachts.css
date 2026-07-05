@@ -43,7 +43,7 @@
     margin-bottom: 16px;
 }
 
-.yacht-iteme-title {
+.yacht-item-title {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.2;
@@ -63,20 +63,21 @@
         opacity: 0.4;
 }
 
-.yacht-item-table {
+.yacht-item-table-wrapper {
 display: flex;
-flex-direction: column;
-flex-wrap: nowrap;
+gap: 6px;
 }
 
-.yacht-table-item {
-display: flex;
-justify-content: space-between;
-align-items: center;
+.yacht-item-table {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 6px;
+    justify-content: center;
 }
 
 .yacht-table-item-dscr {
-font-weight: 400;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.18;
     letter-spacing: 0.03em;
@@ -85,7 +86,20 @@ font-weight: 400;
     opacity: 0.4;
 }
 
+.yacht-table-value-wrapper {
+display: flex;
+flex-direction: column;
+}
+
 .yacht-table-value {
+display: flex;
+flex-direction: column;
+gap: 6px;
+justify-content: center;
+}
+
+.yacht-item-value-dscr {
+    text-align: left;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.18;
@@ -93,6 +107,24 @@ font-weight: 400;
     color: #040306;
 }
 
+.yacht-item-table-and-value-wrapper {
+display: flex;
+align-items: flex-start;
+justify-content: space-between;
+}
+
+/*
+
+
+.yacht-table-item {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+}
+
+*/
 
 .yacht-rental-link {
     display: block;
