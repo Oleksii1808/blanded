@@ -20,7 +20,13 @@ body {
 }
 
 .container {
-    width: 1210px;
+    width: 1270px;
     padding: 0 15px;
     margin: 0 auto;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }

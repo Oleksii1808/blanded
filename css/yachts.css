@@ -1,9 +1,3 @@
-.yacht {}
-
-.container {
-
-}
-
 .yacht-title {
         font-weight: 500;
         font-size: 48px;
@@ -40,6 +34,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(4, 3, 6, 0.1);
     margin-bottom: 16px;
 }
 
@@ -63,17 +59,18 @@
         opacity: 0.4;
 }
 
-.yacht-item-table-wrapper {
-display: flex;
-gap: 6px;
-}
 
 .yacht-item-table {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
     gap: 6px;
-    justify-content: center;
+}
+
+.yacht-table-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    
 }
 
 .yacht-table-item-dscr {
@@ -84,47 +81,18 @@ gap: 6px;
     text-transform: uppercase;
     color: #040306;
     opacity: 0.4;
-}
-
-.yacht-table-value-wrapper {
-display: flex;
-flex-direction: column;
-}
-
-.yacht-table-value {
-display: flex;
-flex-direction: column;
-gap: 6px;
-justify-content: center;
+    margin: 0;
 }
 
 .yacht-item-value-dscr {
-    text-align: left;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.18;
     letter-spacing: 0.03em;
     color: #040306;
+    min-width: 96px;
+    text-align: left;
 }
-
-.yacht-item-table-and-value-wrapper {
-display: flex;
-align-items: flex-start;
-justify-content: space-between;
-}
-
-/*
-
-
-.yacht-table-item {
-display: flex;
-justify-content: space-between;
-align-items: center;
-}
-
-}
-
-*/
 
 .yacht-rental-link {
     display: block;
@@ -147,6 +115,3 @@ align-items: center;
 background: #fbfbfb;
 color: #1b414b;
 }
-
-
-/* /*
