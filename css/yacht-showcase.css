@@ -3,9 +3,10 @@
 }
 .yacht-showcase-container {
     border-radius: 24px;
-    max-width: 1340px;
+    width: 1340px;
     background: #fbfbfb;
     padding: 0;
+    
 }
 
 .yachts-showcase-title-dscr-wrapper {

@@ -1,0 +1,47 @@
+.about-us-container {
+    width: 1340px;
+    padding: 75px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.about-us-list {
+display: flex;
+flex-wrap: wrap;
+gap: 44px 32px;
+border-radius: 24px;
+max-width: 768px;
+background: #1b414b;
+padding: 90px 50px;
+}
+
+.about-us-element {
+    width: calc((100% - 32px) / 2);
+}
+
+.about-us-number {
+display: block;
+font-weight: 500;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    padding-bottom: 18px;
+    border-bottom: 2px solid rgba(251, 251, 251, 0.1);
+    margin-bottom: 18px;
+}
+
+.about-us-element-dscr {
+    font-weight: 400;
+        font-size: 13px;
+        line-height: 1.15;
+        letter-spacing: -0.02em;
+        opacity: 0.8;
+}
+
+
+
+.about-us-image {
+    border-radius: 24px;
+}
+
