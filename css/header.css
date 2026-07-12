@@ -8,6 +8,11 @@
     margin: 0 auto;
     width: 1240px;
     padding: 4px 30px;
+    position: absolute;
+    top: 32px;
+    left: 0;
+    right: 0;
+    z-index: 10;
 }
 
 .header-logo-link {
