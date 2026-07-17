@@ -1,9 +1,10 @@
 .about-us-container {
-    width: 1340px;
-    padding: 75px 0px;
+    max-width: 1370px;
+    padding: 0 15px;
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
     gap: 32px;
+    margin: 0 auto;
 }
 
 .about-us-list {

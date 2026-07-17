@@ -1,9 +1,13 @@
-
+.hero {
+    background-image: url("../images/all-images/hero-background.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .hero-container {
     padding: 235px 0 180px;
     width: 1031px;
-    position: relative;
-}
+    position: relative;}
 .hero-title {
 font-weight: 500;
 font-size: 80px;

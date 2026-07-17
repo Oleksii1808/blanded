@@ -244,8 +244,8 @@
         </div>
       </section>
 
-      <section id="about-us">
-        <div class="container about-us-container">
+      <section class="section" id="about-us">
+        <div class="about-us-container">
           <h2 hidden>About us</h2>
           <ol class="about-us-list">
             <li class="about-us-element">
@@ -287,21 +287,45 @@
       </section>
 
       <section class="section" id="rental">
-        <div class="container">
-          <h2>Rent a yacht now</h2>
+        <div class="rental-container">
           <img
+            class="rental-img"
             src="images/all-images/section-rental.avif"
             alt="Luxury yacht cruising on calm waters at night"
             width="768"
             height="536"
           />
-          <form>
-            <input type="text" name="name" placeholder="Full name" />
-            <input type="email" name="email" placeholder="Email" />
-            <input type="tel" name="phone" placeholder="Phone number" />
-            <textarea name="comment" placeholder="Comment"></textarea>
-            <button type="submit">Send</button>
-          </form>
+          <div class="headline-and-form-wrapper">
+            <h2 class="rental-headline">Rent a yacht now</h2>
+            <form class="rental-form">
+              <input
+                class="rental-input"
+                type="text"
+                name="name"
+                placeholder="Full name"
+              />
+              <input
+                class="rental-input"
+                type="email"
+                name="email"
+                placeholder="Email"
+              />
+              <input
+                class="rental-input"
+                type="tel"
+                name="phone"
+                placeholder="Phone number"
+              />
+              <textarea
+                class="rental-textarea"
+                name="comment"
+                placeholder="Comment"
+              ></textarea>
+              <button class="rental-submit-form-button" type="submit">
+                Send
+              </button>
+            </form>
+          </div>
         </div>
       </section>
 
