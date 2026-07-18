@@ -52,6 +52,12 @@
   padding: 15px 24px;
 }
 
+.footer-link-item:hover,
+.footer-link-item:focus {
+  background: #fbfbfb;
+  color: #1b414b;
+}
+
 .footer-down-dscr {
   font-weight: 400;
   font-size: 32px;
