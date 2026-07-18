@@ -1,117 +1,116 @@
 .yacht-title {
-        font-weight: 500;
-        font-size: 48px;
-        line-height: 1;
-        letter-spacing: -0.02em;
-        text-align: center;
-        color: #fbfbfb;
-        max-width: 714px;
-        margin: 0 auto 75px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  max-width: 714px;
+  margin: 0 auto 75px;
 }
 
 .yacht-list {
-    display: flex;
-    gap: 32px;
-    margin-bottom: 75px;
+  display: flex;
+  gap: 32px;
+  margin-bottom: 75px;
 }
 
 .yacht-list-item {
-    width: calc((100% - 64px) / 3);
-    border-radius: 24px;
-    background-color: #fbfbfb;
-    padding: 16px 16px 32px 16px;
+  width: calc((100% - 64px) / 3);
+  border-radius: 24px;
+  background-color: #fbfbfb;
+  padding: 16px 16px 32px 16px;
 }
 
 .yacht-item-image {
-    border-radius: 24px;
-    margin: 0 auto;
-    display: block;
-    width: 100%;
-    margin-bottom: 32px;
+  border-radius: 24px;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  margin-bottom: 32px;
 }
 
 .yacht-item-title-dscr-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 16px;
-    border-bottom: 1px solid rgba(4, 3, 6, 0.1);
-    margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(4, 3, 6, 0.1);
+  margin-bottom: 16px;
 }
 
 .yacht-item-title {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.2;
-        letter-spacing: -0.04em;
-        text-transform: uppercase;
-        color: #1b414b;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #1b414b;
 }
-
 
 .yacht-item-type {
-    font-weight: 400;
-        font-size: 13px;
-        line-height: 1.18;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #040306;
-        opacity: 0.4;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #040306;
+  opacity: 0.4;
 }
 
-
 .yacht-item-table {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
 .yacht-table-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .yacht-table-item-dscr {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #040306;
-    opacity: 0.4;
-    margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #040306;
+  opacity: 0.4;
+  margin: 0;
 }
 
 .yacht-item-value-dscr {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
-    color: #040306;
-    min-width: 96px;
-    text-align: left;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #040306;
+  min-width: 96px;
+  text-align: left;
 }
 
 .yacht-rental-link {
-    display: block;
-    margin: 0 auto;
-    border: 1px solid rgba(251, 251, 251, 0.35);
-        border-radius: 15px;
-        padding: 16px 40px;
-        width: fit-content;
-        height: 52px;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid rgba(251, 251, 251, 0.35);
+  border-radius: 15px;
+  padding: 16px 40px;
+  width: fit-content;
+  height: 52px;
 
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 1.1;
-        letter-spacing: -0.02em;
-        color: #fbfbfb;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+
+  transition: background 250ms ease;
 }
 
 .yacht-rental-link:hover,
 .yacht-rental-link:focus {
-background: #fbfbfb;
-color: #1b414b;
+  background: #fbfbfb;
+  color: #1b414b;
 }

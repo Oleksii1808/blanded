@@ -50,6 +50,9 @@
   color: #fbfbfb;
 
   padding: 15px 24px;
+  transition:
+    background 250ms ease,
+    color 250ms ease;
 }
 
 .footer-link-item:hover,
@@ -102,6 +105,8 @@
 
 .footer-social-svg {
   fill: #fbfbfb;
+  display: block;
+  transition: fill 250ms ease;
 }
 
 .social-list-link:hover .footer-social-svg,

@@ -47,6 +47,7 @@
   text-align: center;
   color: #fbfbfb;
   min-width: 91px;
+  transition: background 250ms ease;
 }
 
 .navigation-list-item-link:focus,
@@ -56,6 +57,7 @@
 
 .header-social-list {
   display: flex;
+  justify-content: center;
   gap: 10px;
   margin-left: auto;
 }
@@ -64,7 +66,9 @@
 }
 
 .svg-social-header {
+  display: block;
   fill: #1b414b;
+  transition: fill 250ms ease;
 }
 
 .header-social-item-link {
