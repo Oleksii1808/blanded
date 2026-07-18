@@ -86,8 +86,14 @@
 }
 .footer-social-list {
   margin-left: auto;
+  display: flex;
+  gap: 8px;
 }
 .social-list-item {
 }
 .social-list-link {
+}
+
+.footer-social-svg {
+  fill: #fbfbfb;
 }
