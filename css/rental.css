@@ -50,8 +50,18 @@
   line-height: 1.29;
   color: rgba(251, 251, 251, 0.4);
   margin-bottom: 18px;
+  outline: none;
+
+  transition:
+    background 250ms ease,
+    color 250ms ease;
 }
 
+.rental-input:focus,
+.rental-input:hover {
+  border: 1px solid rgba(251, 251, 251, 0.5);
+  color: #fbfbfb;
+}
 .rental-textarea {
   resize: none;
   background-color: inherit;
@@ -61,10 +71,27 @@
   width: 472px;
   height: 116px;
   margin-bottom: 50px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  color: rgba(251, 251, 251, 0.4);
+  outline: none;
+
+  transition:
+    background 250ms ease,
+    color 250ms ease;
+}
+
+.rental-textarea:focus,
+.rental-textarea:hover {
+  border: 1px solid rgba(251, 251, 251, 0.5);
+  color: #fbfbfb;
 }
 
 .rental-submit-form-button {
   border: none;
+  cursor: pointer;
   border-radius: 15px;
   padding: 18px 75px;
   width: 194px;
