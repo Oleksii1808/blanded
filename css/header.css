@@ -6,7 +6,7 @@
   align-items: center;
 
   margin: 0 auto;
-  width: 1240px;
+  max-width: 1240px;
   padding: 4px 30px;
   position: absolute;
   top: 32px;
